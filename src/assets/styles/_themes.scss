@@ -1,0 +1,27 @@
+.btn {
+  height: 37px;
+  padding: 0 1em;
+  border: 1p solid var(--primary);
+  border-radius: var(--border-radius);
+  transition: opacity 0.2s;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn-reversed {
+  background-color: white;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+
+.btn-warning {
+  background-color: var(--warning);
+  border: 1px solid var(--warning);
+  color: white;
+}

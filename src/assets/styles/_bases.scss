@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  color: var(--dark-primary);
+}
+
+body {
+  font-family: var(--font-familly);
+  color: var(--text);
+  font-size: 62.5%;
+  background-color: var(--light-grey);
+}
+
+input {
+  outline: none;
+  height: 37px;
+  border: 1px solid var(--primary);
+  border-radius: var(--border-radius);
+  padding: 0 1rem;
+  &::placeholder {
+    color: var(--peps);
+  }
+}
+
+.container {
+  height: 100vh;
+}
+
+.cardTitle {
+  width: 600px;
+  padding: 10px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid var(--primary);
+  border-radius: var(--border-radius);
+  width: 600px;
+
+  padding: 10px;
+}
+
+li {
+  list-style: none;
+  font-size: 1rem;
+  i {
+    cursor: pointer;
+  }
+}
+
+select {
+  outline: none;
+  border: 1px solid var(--primary);
+  border-radius: var(--border-radius);
+}
